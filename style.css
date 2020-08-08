@@ -1,0 +1,47 @@
+section {
+  display: none;
+}
+
+body {
+  background-image: url("Star-wars-logo.jpg");
+}
+
+h1 {
+  color: yellow;
+  margin-left: 65px;
+  font-size: 100px;
+  margin-bottom: 5px;
+}
+
+h2,
+#choices {
+  color: yellow;
+  margin-left: 65px;
+}
+
+p {
+  color: yellow;
+  margin-left: 65px;
+}
+
+#choices {
+  margin-left: 5px;
+  margin-right: 500px;
+}
+
+fieldset {
+  border: none;
+}
+
+input {
+  margin-left: 45px;
+}
+
+input[type="submit"] {
+  margin-left: 60px;
+  margin-right: 55px;
+}
+
+button {
+  margin-left: 65px;
+}

@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header></header>
+    <h1>Star Wars Quiz</h1>
+    <p class="score"></p>
+    <p class="progress"></p>
+
+    <section id="start">
+      <h2>Test Your Jedi Skills</h2>
+      <button id="start-quiz">Start</button>
+    </section>
+
+    <section id="quiz">
+      <h2></h2>
+      <form>
+        <fieldset id="choices"></fieldset>
+        <input type="submit" value="Submit Answer" aria-label="Submit Answer" />
+      </form>
+    </section>
+
+    <section id="feedback">
+      <h2></h2>
+      <p class="user-answer"></p>
+      <p class="correct-answer"></p>
+      <button id="next">Next</button>
+    </section>
+
+    <section id="summary">
+      <h2>Summary</h2>
+      <p></p>
+      <p class="force"></p>
+      <button id="restart">Restart Quiz</button>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
