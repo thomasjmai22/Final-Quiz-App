@@ -1,42 +1,42 @@
 const STORE = {
   questions: [
     {
-      title: "1. What planet did Luke grow up on?",
+      title: "What planet did Luke grow up on?",
       answers: ["Alderaan", "Hoth", "Tatooine", "Earth"],
       correct: 2,
     },
     {
-      title: "2. What is the weapon of choice for Jedi's?",
+      title: "What is the weapon of choice for Jedi's?",
       answers: ["Lightsaber", "Axe", "Plasma Rifle", "Sword"],
       correct: 0,
     },
     {
-      title: "3. Who is Darth Vader's son?",
+      title: "Who is Darth Vader's son?",
       answers: ["Yoda", "Luke", "Han Solo", "R2D2"],
       correct: 1,
     },
     {
-      title: "4. What is the name of Han Solo's ship?",
+      title: "What is the name of Han Solo's ship?",
       answers: ["X-wing", "Star Cruiser", "Death Star", "Millenium Falcon"],
       correct: 3,
     },
     {
-      title: "5. How old was Yoda when he died?",
+      title: "How old was Yoda when he died?",
       answers: [2000, 500, 900, 1000],
       correct: 2,
     },
     {
-      title: "6. Who killed Han Solo?",
+      title: "Who killed Han Solo?",
       answers: ["Boba Fett", "Darth Maul", "Kylo Ren", "Anakin Skywalker"],
       correct: 2,
     },
     {
-      title: "7. Who killed Jabba the Hutt?",
+      title: "Who killed Jabba the Hutt?",
       answers: ["Princess Leia", "Yoda", "Storm Troopers", "The Sith"],
       correct: 0,
     },
     {
-      title: "8. What did the Emperor claim that was Luke's biggest weakness?",
+      title: "What did the Emperor claim that was Luke's biggest weakness?",
       answers: [
         "The Force within him",
         "Faith in his friends",
@@ -46,12 +46,12 @@ const STORE = {
       correct: 1,
     },
     {
-      title: "9. What is the name of the jester for Jabba the Hutt?",
+      title: "What is the name of the jester for Jabba the Hutt?",
       answers: ["Rex", "Warf", "Jar-Jar", "Salacious Crumb"],
       correct: 3,
     },
     {
-      title: "10. What species is Chewbacca?",
+      title: "What species is Chewbacca?",
       answers: ["Ewok", "Jawas", "Wookie", "Rodian"],
       correct: 2,
     },
