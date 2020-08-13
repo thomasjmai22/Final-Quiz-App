@@ -99,8 +99,8 @@ function renderQuestion() {
   $("#choices").html("");
   question.answers.forEach((answer, i) => {
     $("#choices").append(`
-            <input type="radio" name="choice" value="${i}" id="${i}"/>
-            <label for="${i}">${answer}</label>
+            <p><input type="radio" name="choice" value="${i}" id="${i}"/>
+            <label for="${i}">${answer}</label></p>
         `);
   });
 }

@@ -2,47 +2,97 @@ section {
   display: none;
 }
 
+section.show {
+  display: block;
+  text-align: center;
+}
+
 body {
-  background-image: url("Star-wars-logo.jpg");
+  background-image: url("jedi.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellow;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding: 0 5%;
+}
+
+#start {
+  margin-top: 25vh;
+}
+
+main section {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px;
+  margin-top: 10vh;
+}
+
+section button,
+section input[type="submit"] {
+  font-size: 30px;
+}
+
+#summary {
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 501px) {
+  header {
+    flex-direction: row;
+  }
+  section.show {
+    text-align: right;
+  }
 }
 
 h1 {
-  color: yellow;
-  margin-left: 65px;
-  font-size: 100px;
-  margin-bottom: 5px;
-  margin-top: -15px;
+  color: black;
+  -webkit-text-stroke: 1px yellow;
+  font-size: 50px;
+  margin: 0 0 10px 0;
+  text-align: center;
 }
 
 h2,
 #choices {
-  color: yellow;
-  margin-left: 65px;
+  -webkit-text-stroke: 1px black;
+  font-size: 30px;
 }
-
-p {
-  color: yellow;
-  margin-left: 65px;
+.correct-answer {
+  color: goldenrod;
 }
 
 #choices {
-  margin-left: 5px;
-  margin-right: 500px;
+  display: flex;
+  flex-direction: column;
 }
 
 fieldset {
   border: none;
-}
-
-input {
-  margin-left: 45px;
+  padding: 0;
 }
 
 input[type="submit"] {
-  margin-left: 60px;
-  margin-right: 55px;
+  background-color: yellow;
 }
 
 button {
-  margin-left: 65px;
+  background-color: yellow;
 }
